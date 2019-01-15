@@ -1,0 +1,20 @@
+{
+  "name": "a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "alex hjortenkrans",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7",
+    "sqlite3": "^4.0.4"
+  }
+}
