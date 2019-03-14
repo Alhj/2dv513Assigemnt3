@@ -21,7 +21,7 @@ app.engine('.hbs', expressHandelBars({
 
 app.use((req, res) => res.status(404).render('error/404'))
 
-
+  console.log('test')
 app.use(async (err, req, res, next) => {
   if (req.app.get('env') !== 'devolopment') {
     return res.status(500).render('error/500')
